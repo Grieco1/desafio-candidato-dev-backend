@@ -1,0 +1,11 @@
+1 - Alguns metodos não estao sendo utilizados dentro da aplicação.
+  - Variaves utilizadas no metodo "processAddressValue" não estão respeitando o camelcase, tendo algumas iniciando em maiusculo e outras totalmente em minusculo.
+  - callExternarRestService esta escrito incorretamente, o ideal seria callExternalRestService .
+  - Classe de teste não esta realizando nenhum teste.
+  - While da linha 36(EntityFactory) esta incorreto, fazendo com que nunca entre dentro da condição.
+  - os Packages não estão em uma hierarquia convecional java,pois deveriam estar abaixo de thcepdetails e não de srmasset. 
+  - Classe nomeada no plural, mas deveria ser nomeado no singular.
+  - Não ha Java Doc nas classes.
+  
+  
+2 - Temos o Spring Actuator, que atende ao exercicio dois na criação de um healthcheck conforme solicitado.
